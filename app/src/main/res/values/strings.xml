@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Registration form</string>
+    <string name="Title">Register</string>
+    <string name="name" />
+    <string name="Email" />
+    <string name="phone_number" />
+    <string name="psswrd" />
+    <string name="retype_passwrd" />
+</resources>
