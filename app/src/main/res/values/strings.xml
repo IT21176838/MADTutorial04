@@ -6,4 +6,10 @@
     <string name="phone_number" />
     <string name="psswrd" />
     <string name="retype_passwrd" />
+    <string name="Email1" />
+    <string name="Email2" />
+    <string name="Password1" />
+    <string name="Password2" />
+    <string name="Submit1" />
+    <string name="Cancel1" />
 </resources>

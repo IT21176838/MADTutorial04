@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LogingPage">
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Email1"
+        android:inputType="textEmailAddress"
+        android:text="E-mail" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Email2"
+        android:inputType="textEmailAddress"
+        android:text="Re enter E-mail" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Password1"
+        android:inputType="textPassword"
+        android:text="Password" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/Password2"
+        android:inputType="textPassword"
+        android:text="Re enter Password" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Submit1"
+        android:text="Submit" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/Cancel1"
+        android:text="Cancel" />
+</LinearLayout>
